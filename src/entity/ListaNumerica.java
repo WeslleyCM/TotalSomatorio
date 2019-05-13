@@ -3,12 +3,10 @@ package entity;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonProperty.Access;
 
 public class ListaNumerica {
-//	@JsonIgnore
 	@JsonProperty(access = Access.WRITE_ONLY)
 	private List<Integer> numeros;
 	private Integer total;
