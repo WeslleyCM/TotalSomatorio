@@ -11,7 +11,7 @@ public class ListaNumerica {
 //	@JsonIgnore
 	@JsonProperty(access = Access.WRITE_ONLY)
 	private List<Integer> numeros;
-	private Integer total=0;
+	private Integer total;
 	
 
 	public ListaNumerica() {
